@@ -28,33 +28,6 @@ var viewer = pannellum.viewer('panorama', {
         "compass":true,
         "northOffset": 0
       },
-
-       "image-3": {
-         "type": "equirectangular",
-        "panorama": "NA1",
-        "hfov":200,
-        "haov": 360,
-        "vaov":150,
-        "minPitch":-25,
-        "maxPitch": 25,
-        "yaw": 0,
-        "compass":true,
-        "northOffset": 0
-      },
-
-      "image-4":{
-        "type": "equirectangular",
-         "panorama": "NA",
-         "hfov":200,
-         "haov": 360,
-         "vaov":150,
-         "minPitch":-25,
-         "maxPitch": 25,
-         "yaw": 150,
-         "compass":true,
-         "northOffset": 210
-        
-       }, 
     }
 }});
 function togglePopupBackground(containerId, isHover) {
