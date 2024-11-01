@@ -54,7 +54,7 @@ var viewer = pannellum.viewer('panorama', {
          "compass":true,
          "northOffset": 210
         
-    //   }, 
+       }, 
     }
 }});
 function togglePopupBackground(containerId, isHover) {
