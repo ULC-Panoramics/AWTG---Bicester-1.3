@@ -44,7 +44,7 @@ var viewer = pannellum.viewer('panorama', {
 
       "image-4":{
         "type": "equirectangular",
-         "panorama": "NA2",
+         "panorama": "NA",
          "hfov":200,
          "haov": 360,
          "vaov":150,
