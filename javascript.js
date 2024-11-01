@@ -9,7 +9,7 @@ var viewer = pannellum.viewer('panorama', {
     "scenes": {
         "image-1": {
             "type": "equirectangular",
-            "panorama": "15m.JPG", 
+            "panorama": "19m.JPG", 
             "hfov":200,
             "yaw":0,
             "compass":true,
@@ -18,7 +18,7 @@ var viewer = pannellum.viewer('panorama', {
   
         "image-2": {
         "type": "equirectangular",
-        "panorama": "20m.JPG",
+        "panorama": "21.5m.JPG",
         "hfov":200,
         "haov": 360,
         "vaov":150,
@@ -28,6 +28,33 @@ var viewer = pannellum.viewer('panorama', {
         "compass":true,
         "northOffset": 0
       },
+
+       "image-3": {
+         "type": "equirectangular",
+        "panorama": "24m.JPG",
+        "hfov":200,
+        "haov": 360,
+        "vaov":150,
+        "minPitch":-25,
+        "maxPitch": 25,
+        "yaw": 0,
+        "compass":true,
+        "northOffset": 0
+      },
+
+      "image-4":{
+        "type": "equirectangular",
+         "panorama": "NA",
+         "hfov":200,
+         "haov": 360,
+         "vaov":150,
+         "minPitch":-25,
+         "maxPitch": 25,
+         "yaw": 150,
+         "compass":true,
+         "northOffset": 210
+        
+    //   }, 
     }
 }});
 function togglePopupBackground(containerId, isHover) {
